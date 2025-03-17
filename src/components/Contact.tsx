@@ -1,4 +1,5 @@
 import { useState, FormEvent } from "react";
+import { Link as ScrollLink } from "react-scroll";
 
 export default function Contact() {
   const [email, setEmail] = useState("");
@@ -104,13 +105,17 @@ ${message}
 
         {/* Manual Scroll Link ke Section Lain */}
         <div className="mt-12">
-          <a
-            href="#hero"
-            className="text-slate hover:text-green transition inline-block"
+          <ScrollLink
+            to="hero"
+            spy={false}
+            smooth={true}
+            duration={500}
+            className="text-slate hover:text-green transition inline-block cursor-pointer"
             aria-label="Go back to projects section"
+            hashSpy={false} // Mencegah pembaruan hash di URL
           >
             ↑ Back to Home
-          </a>
+          </ScrollLink>
         </div>
       </div>
     </section>

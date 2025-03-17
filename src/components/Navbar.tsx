@@ -9,7 +9,7 @@ export default function Navbar() {
   // Register event listeners
   useEffect(() => {
     // Function for closing the menu when click from outside
-    const handleOutsideClick = (e: MouseEvent) => {
+    function handleOutsideClick(e: MouseEvent) {
       const target = e.target as HTMLElement;
 
       // If click is on hamburger menu or within dropdown, ignore
@@ -24,14 +24,14 @@ export default function Navbar() {
       if (isOpen) {
         setIsOpen(false);
       }
-    };
+    }
 
     // Function for closing the menu when ScrollLink is clicked
-    const handleScrollLinkClick = () => {
+    function handleScrollLinkClick() {
       if (isOpen) {
         setIsOpen(false);
       }
-    };
+    }
 
     // Function for finding all ScrollLinks on the page (including those outside the navbar)
     const scrollLinks = document.querySelectorAll("[data-scroll-link='true']");
