@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto text-center">
         <div className="flex justify-center gap-6 mb-4">
           <a
-            href="mailto:you@domain.com"
+            href="mailto:gunturw79@gmail.com"
             aria-label="Send email"
             className="hover:transform hover:scale-110 transition-transform"
           >
@@ -18,7 +18,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/gunturwsn"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub profile"
@@ -29,7 +29,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/guntur-wicaksono"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn profile"
