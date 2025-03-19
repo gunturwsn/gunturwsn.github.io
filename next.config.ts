@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
 
   // Konfigurasi basePath jika repository bukan username.github.io
   // Hapus basePath ini jika repository Anda adalah username.github.io
-  basePath: process.env.NODE_ENV === "production" ? `/${repoName}` : "",
+  //basePath: process.env.NODE_ENV === "production" ? `/${repoName}` : "",
 
   // Disable image optimization karena memerlukan server
   images: {
@@ -19,7 +19,7 @@ const nextConfig: NextConfig = {
   },
 
   // Konfigurasi assetPrefix jika diperlukan untuk path assets
-  assetPrefix: process.env.NODE_ENV === "production" ? `/${repoName}` : "",
+  //assetPrefix: process.env.NODE_ENV === "production" ? `/${repoName}` : "",
 
   // Tambahkan trailingSlash untuk konsistensi URL
   trailingSlash: true,
