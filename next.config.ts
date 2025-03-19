@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const repoName = "my-portfolio";
+const repoName = "gunturwsn.github.io";
 
 const nextConfig: NextConfig = {
   /* config options here */
