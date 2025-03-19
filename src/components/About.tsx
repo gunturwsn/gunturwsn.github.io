@@ -17,7 +17,7 @@ export default function About() {
             {/* Foto dengan bingkai persegi */}
             <div className="relative w-full h-full rounded-xl overflow-hidden border-2 border-green shadow-lg z-10">
               <Image
-                src={`${process.env.NODE_ENV === "production" ? "/my-portfolio" : ""}/images/avatar.webp`}
+                src={`${process.env.NODE_ENV === "production" ? "/gunturwsn.github.io" : ""}/images/avatar.webp`}
                 alt="Foto Profil"
                 fill
                 priority
