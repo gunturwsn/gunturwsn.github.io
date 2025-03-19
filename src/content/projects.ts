@@ -1,5 +1,3 @@
-import { getImagePath } from "@/utils/imagePath";
-
 // content/projects.ts
 export interface Project {
   title: string;
